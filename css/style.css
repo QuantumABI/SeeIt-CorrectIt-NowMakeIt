@@ -76,8 +76,8 @@ section h3 {
 }
 
 section .card .box .front {
+  transform: rotateX(0deg);
   backface-visibility: hidden;
-
 }
 
 /* The style for the header on the front */
@@ -94,6 +94,7 @@ section .card .box .back {
   backface-visibility: hidden;
   justify-content: center;
   align-items: center;
+  transform: rotateX(0deg);
   transform: rotateY(180deg);
 
 }
