@@ -1,53 +1,52 @@
 /* Header and navbar */
 
 h1 {
-	font-size: 10em;
-	color: #423a37;
-	text-align: center;
-	margin: 0;
+  font-size: 10em;
+  color: #423a37;
+  text-align: center;
+  margin: 0;
 }
 
 p {
-	font-size: 3em;
-	color: #423a37;
-	text-align: center;
-	margin: 0;
+  font-size: 3em;
+  color: #423a37;
+  text-align: center;
+  margin: 0;
 }
 
-ul.navbar { 
+ul.navbar {
   list-style-type: none;
   margin: 20px 20px 40px 20px;
   padding: 0;
   overflow: hidden;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .2);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
   background-color: darkgray;
-
 }
 
 ul.navbar li {
-	float: left;
+  float: left;
 }
 
 ul.navbar li.right {
-	float: right;
+  float: right;
 }
 
 ul.navbar li a {
-	display: block;
-	color: white;
-	font-size: 25px;
-	text-align: center;
-	padding: 20px 20px 20px 20px;
-	text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
 }
 
 ul.navbar li a:hover {
-	background-color: black;
+  background-color: black;
 }
 
 @media only screen and (max-width: 600px) {
-	ul.navbar li.right,
-	ul.navbar li {
-		float: none;
-	}
+  ul.navbar li.right,
+  ul.navbar li {
+    float: none;
+  }
 }
